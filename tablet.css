@@ -1,0 +1,128 @@
+@media (min-width: 768px) {
+  #home.content.active {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 3.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .details h2 {
+    font-size: 3rem;
+  }
+
+  .details h3 {
+    font-size: 2.5rem;
+  }
+
+  .bottom {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .btn {
+    width: 12rem;
+    padding: 0.8rem 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .btn:hover {
+    box-shadow: 2px 2px 2px var(--d-lavender), -2px 2px 2px var(--d-lavender),
+      2px -2px 2px var(--d-lavender), -2px -2px 2px var(--d-lavender);
+    background: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--d-lavender);
+  }
+
+  .social-icons {
+    font-size: 1.5rem;
+  }
+  .social-icons a {
+    color: var(--white);
+    transition: all ease 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: var(--d-lavender);
+  }
+
+  #services h2 {
+    font-size: 4rem;
+  }
+
+  .service-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .box h3 {
+    text-align: left;
+  }
+
+  /* about section */
+
+  #about.content.active {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3rem;
+  }
+
+  .sidebar {
+    grid-column: span 3;
+  }
+
+  .sidebar .tabs {
+    gap: 1.5rem;
+  }
+
+  .tab-content.active {
+    max-width: 100%;
+    margin: 0;
+    grid-column: span 4;
+  }
+
+  aside h2 {
+    font-size: 3rem;
+  }
+
+  aside p {
+    font-size: 1.3rem;
+  }
+
+  .experience-box h3 {
+    font-size: 1.5rem;
+  }
+
+  .company-name p {
+    font-size: 1.2rem;
+  }
+
+  .skill-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .my-info {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.7rem;
+    gap: 2rem 1rem;
+  }
+
+  /* project section */
+
+  /* contact section */
+
+  #contact.content.active {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fields {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+  /* footer section */
+
+  .footer-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

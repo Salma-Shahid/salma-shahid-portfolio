@@ -1,0 +1,56 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="black"></rect>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C09ADB">
+        <animate attributeName="stop-color" values="#C09ADB;#A17BB9;#825B97;#623C74;#431C52;#C09ADB" dur="6s" repeatCount="indefinite"></animate>
+      </stop>
+      <stop offset="100%" stop-color="#431C52">
+        <animate attributeName="stop-color" values="#431C52;#623C74;#825B97;#A17BB9;#C09ADB;#431C52" dur="6s" repeatCount="indefinite"></animate>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Animated Circle -->
+  <circle cx="250" cy="220" r="120" stroke="url(#grad)" stroke-width="6" fill="none" stroke-dasharray="754" stroke-dashoffset="754">
+    <animate attributeName="stroke-dashoffset" from="754" to="0" dur="2.5s" fill="freeze"></animate>
+  </circle>
+
+  <!-- Left Bracket Animation -->
+  <text x="180" y="245" font-size="70" fill="#C09ADB" font-family="monospace">
+    &lt;
+    <animateTransform attributeName="transform" type="translate" from="-20 0" to="0 0" dur="1.2s" fill="freeze"></animateTransform>
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"></animate>
+  </text>
+
+  <!-- Right Bracket Animation -->
+  <text x="300" y="245" font-size="70" fill="#431C52" font-family="monospace">
+    /&gt;
+    <animateTransform attributeName="transform" type="translate" from="20 0" to="0 0" dur="1.2s" fill="freeze"></animateTransform>
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"></animate>
+  </text>
+
+  <!-- Initials Fade In -->
+  <text x="250" y="255" font-size="60" fill="url(#grad)" font-family="monospace" font-weight="bold" text-anchor="middle" opacity="0">
+    SS
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="1s" fill="freeze"></animate>
+  </text>
+
+  <!-- Name Slide Up -->
+  <text x="250" y="380" font-size="28" fill="#A17BB9" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" opacity="0">
+    Salma Shahid
+    <animateTransform attributeName="transform" type="translate" from="0 20" to="0 0" dur="1.2s" begin="1.8s" fill="freeze"></animateTransform>
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="1.8s" fill="freeze"></animate>
+  </text>
+
+  <!-- Role Fade In -->
+  <text x="250" y="410" font-size="16" fill="#825B97" font-family="Arial, Helvetica, sans-serif" letter-spacing="2" text-anchor="middle" opacity="0">
+    WEB DEVELOPER
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.5s" fill="freeze"></animate>
+  </text>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#000000"></rect>
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C09ADB"></stop>
+      <stop offset="25%" stop-color="#A17BB9"></stop>
+      <stop offset="50%" stop-color="#825B97"></stop>
+      <stop offset="75%" stop-color="#623C74"></stop>
+      <stop offset="100%" stop-color="#431C52"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Circle -->
+  <circle cx="250" cy="220" r="120" stroke="url(#grad1)" stroke-width="6" fill="none"></circle>
+
+  <!-- Code Brackets -->
+  <text x="185" y="240" font-size="70" fill="#C09ADB" font-family="monospace">&lt;</text>
+  <text x="295" y="240" font-size="70" fill="#431C52" font-family="monospace">/&gt;</text>
+
+  <!-- Initials -->
+  <text x="220" y="250" font-size="60" fill="url(#grad1)" font-family="monospace" font-weight="bold">
+    SS
+  </text>
+
+  <!-- Name -->
+  <text x="250" y="370" text-anchor="middle" font-size="28" fill="#A17BB9" font-family="Arial, Helvetica, sans-serif" font-weight="bold">
+    Salma Shahid
+  </text>
+
+  <!-- Title -->
+  <text x="250" y="405" text-anchor="middle" font-size="16" fill="#825B97" font-family="Arial, Helvetica, sans-serif" letter-spacing="2">
+    WEB DEVELOPER
+  </text>
+</svg>
