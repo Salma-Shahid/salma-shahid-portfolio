@@ -19,7 +19,15 @@
 
 body,
 html {
-  background: var(--primary);
+  /* background: var(--primary); */
+  background: radial-gradient(
+        circle at top right,
+        #9d6df7,
+        rgba(0, 0, 0, 0) 50%
+      )
+      no-repeat top right / 300px 300px,
+    /* 2. Solid black background layer (must be listed last) */ #000000;
+
   color: var(--white);
   min-height: 100dvh;
   overflow-x: hidden;
@@ -265,6 +273,9 @@ nav a {
 .btn {
   width: 12rem;
   padding: 0.8rem 0;
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary);
   font-size: 1.3rem;
   font-weight: 600;
   border-radius: 30px;
@@ -366,7 +377,7 @@ nav a {
 
 .head-icons i {
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .head-icons span i {
@@ -816,7 +827,6 @@ legend {
 
 legend span {
   color: var(--d-lavender);
-  
 }
 
 label {
@@ -932,11 +942,12 @@ textarea::placeholder {
   font-weight: 600;
   cursor: pointer;
   background: var(--d-lavender);
+  color: var(--primary);
   transition: all 0.3s ease;
 }
 
 #newsletter-form button:hover {
-  background: transparent;
+  background: var(--primary);
   border: 1px solid var(--d-lavender);
   color: var(--d-lavender);
 }
@@ -966,6 +977,7 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--primary);
   color: var(--d-lavender);
   transition: all 0.3s ease;
 }

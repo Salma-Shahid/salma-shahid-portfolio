@@ -33,7 +33,7 @@ aboutTabs.forEach((tab) => {
           id: 1,
           date: "2024 - 2026",
           position: "Frontend Developer",
-          Company: "SMIT",
+          company: "SMIT",
           details:
             "Built responsive and optimized UIs using HTML, CSS, and JavaScript ",
         },
@@ -41,7 +41,7 @@ aboutTabs.forEach((tab) => {
           id: 2,
           date: "2024 - 2026",
           position: "Backend Developer",
-          Company: "SMIT",
+          company: "SMIT",
           details:
             "Built responsive and optimized Backend using express, Node Js, and Mongo DB ",
         },
@@ -49,7 +49,7 @@ aboutTabs.forEach((tab) => {
           id: 3,
           date: "2024 - 2026",
           position: "FullStack Developer",
-          Company: "SMIT",
+          company: "SMIT",
           details:
             "Built responsive and optimized UIs using all frameWorks and Libraries ",
         },
