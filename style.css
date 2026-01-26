@@ -690,12 +690,12 @@ aside h2 span {
 }
 
 .links a:first-child {
-  rotate: -45deg;
+  rotate: 0deg;
   transition: all linear 0.3s;
 }
 
 .links a:first-child:hover {
-  rotate: 0deg;
+  rotate: -45deg;
 }
 
 .links a i,

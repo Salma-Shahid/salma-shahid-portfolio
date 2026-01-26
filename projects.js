@@ -7,7 +7,7 @@ const projectList = [
       "A responsive task management web application built with HTML, CSS, and JavaScript that allows users to add, update, complete, and delete tasks efficiently. Designed with a clean UI and smooth interactions, this project demonstrates strong skills in DOM manipulation, event handling, and frontend logic, helping users stay organized and productive.",
     techStack: ["HTML", "CSS", "JavaScript"],
     image: "./images/task-manager.png",
-    liveLink: "#",
+    liveLink: "https://task-manager-by-salma.netlify.app/",
     githubLink: "https://github.com/Salma-Shahid/Task-Manager",
   },
   {
@@ -18,7 +18,7 @@ const projectList = [
       "A modern, fully responsive developer portfolio website showcasing projects, skills, and contact information. Built using HTML, CSS, and JavaScript, the site focuses on performance, SEO optimization, mobile UX, and accessibility, creating a professional online presence for clients and recruiters.",
     techStack: ["HTML", "CSS", "JavaScript"],
     image: "./images/portfolio.png",
-    liveLink: "salmashahid-portfolio.netlify.app",
+    liveLink: "https://salmashahid-portfolio.netlify.app/",
     githubLink: "https://github.com/Salma-Shahid/My-Portfolio",
   },
   {
@@ -29,7 +29,7 @@ const projectList = [
       "A sleek and user-friendly web-based calculator application developed using HTML, CSS, and JavaScript. This project features a clean interface and intuitive functionality, allowing users to perform basic arithmetic operations with ease. It showcases proficiency in DOM manipulation, event handling, and responsive design principles.",
     techStack: ["HTML", "CSS", "JavaScript"],
     image: "./images/calculator.png",
-    liveLink: "#",
+    liveLink: "https://calculator-by-salma.netlify.app/",
     githubLink: "https://github.com/Salma-Shahid/Calculator1",
   },
 ];
@@ -60,9 +60,7 @@ const renderProject = (index) => {
         </div>
         <hr>
         <div class="links">
-          <a href=${
-            projectContent?.liveLink
-          }><i class="ph ph-arrow-right"></i></a>
+          <a href=${projectContent?.liveLink}>Live</a>
           <a href=${
             projectContent?.githubLink
           }><i class="ph ph-github-logo"></i></a>
