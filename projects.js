@@ -32,6 +32,46 @@ const projectList = [
     liveLink: "https://calculator-by-salma.netlify.app/",
     githubLink: "https://github.com/Salma-Shahid/Calculator1",
   },
+  {
+    id: 4,
+    number: "04",
+    title: "Gemini-Clone-Project",
+    description:
+      "A modern AI chatbot application inspired by Google Gemini, built using React.js and Vite. This project provides a clean and responsive user interface where users can interact with AI in real-time.",
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Vite",
+      "Google Gemini API",
+    ],
+    image: "./images/gemini-clone.png",
+    liveLink: "https://gemini-cloneproject.netlify.app/",
+    githubLink: "https://github.com/Salma-Shahid/Gemini-clone",
+  },
+  {
+    id: 5,
+    number: "05",
+    title: "Poder-Monie",
+    description:
+      "Nigeria's mobile-first investment platform landing page. Built with React, Vite, and Tailwind CSS.",
+    techStack: ["React Js", "Vite", "Node Js", "Tailwind Css"],
+    image: "./images/poder-monie.png",
+    liveLink: "poder-monie.vercel.app",
+    githubLink: "https://github.com/Salma-Shahid/poder-monie",
+  },
+  {
+    id: 6,
+    number: "06",
+    title: "Code-Axis-Technologies",
+    description:
+      "Code Axis Technologies is a modern, professional fellowship program website designed to showcase academic and professional development opportunities. The website is built with cutting-edge technologies including React 18, Vite, and Tailwind CSS.",
+    techStack: ["React Js", "Vite", "Node Js", "Tailwind CSS", "Zustand"],
+    image: "./images/code-axis.png",
+    liveLink: "code-axis-technologies.vercel.app",
+    githubLink: "https://github.com/Salma-Shahid/Code-Axis-Technologies",
+  },
 ];
 
 const projects = document.querySelector(".projects");

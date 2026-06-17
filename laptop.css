@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
   .main-container {
-    max-width: 950px;
+    min-width: 1800px;
   }
 
   /* header */
